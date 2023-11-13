@@ -1,0 +1,32 @@
+header {
+    background-color: #F5F5DC; /* Set background color to white */
+    padding: 100px; /* Adjust padding to create space around the header content */
+    text-align: center; /* Optional: Center the content within the header */
+  }
+body   {
+    background-color:  #F5F5DC;
+    font-size: larger;
+    font-family:'Segoe UI Light';
+    margin-top: 80px;
+
+}
+div.centered {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
